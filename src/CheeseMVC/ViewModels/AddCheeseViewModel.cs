@@ -27,20 +27,26 @@ namespace CheeseMVC.ViewModels
 
             // <option value="0">Hard</option>
             CheeseTypes.Add(new SelectListItem {
-                Value = ((int) CheeseType.Hard).ToString(),
-                Text = CheeseType.Hard.ToString()
+                Value = ((int) CheeseType.Goat).ToString(),
+                Text = CheeseType.Goat.ToString()
             });
 
             CheeseTypes.Add(new SelectListItem
             {
-                Value = ((int)CheeseType.Soft).ToString(),
-                Text = CheeseType.Soft.ToString()
+                Value = ((int)CheeseType.Cow).ToString(),
+                Text = CheeseType.Cow.ToString()
             });
 
             CheeseTypes.Add(new SelectListItem
             {
-                Value = ((int)CheeseType.Fake).ToString(),
-                Text = CheeseType.Fake.ToString()
+                Value = ((int)CheeseType.Cat).ToString(),
+                Text = CheeseType.Cat.ToString()
+            });
+
+            CheeseTypes.Add(new SelectListItem
+            {
+                Value = ((int)CheeseType.Yak).ToString(),
+                Text = CheeseType.Yak.ToString()
             });
 
         }
